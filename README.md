@@ -3,10 +3,25 @@
 **Student:** Paul Ilut
 **Disciplina:** Proiectarea Bazelor de Date
 
-## Obiectivul Proiectului
-Acest proiect reprezinta dezvoltarea completa a unei baze de date relationale pentru o firma de transport public. Acesta parcurge toate etapele de proiectare: modelarea conceptuala, logica si fizica, integrarea cu o aplicatie CRUD, precum si includerea unui flux simplu de Inteligenta Artificiala.
+## Scopul Proiectului
+* **Domeniu:** Transport public.
+* **Problema concreta:** Gestionarea centralizata a datelor unei firme de transport, de la starea vehiculelor si personal, pana la vanzari si incidente, prin intermediul unei baze de date integrate cu o aplicatie de tip CRUD.
+* **Utilitate practica:** Aplicatia va permite optimizarea timpilor de reactie in cazul incidentelor in trafic si va reduce costurile operationale prin monitorizarea stricta a mentenantei. De asemenea, sistemul faciliteaza luarea deciziilor strategice rapide si ofera managerilor o perspectiva clara, in timp real, asupra profitabilitatii financiare.
 
-## Scop si Utilitate Practica
-Baza de date va gestiona aspectele esentiale ale unei retele de transport public. Printre entitatile principale se numara rutele de transport, statiile, vehiculele din parcul auto, angajatii si sistemul de bilete/abonamente.
+## Obiectivele Proiectului
+Baza de date va gestiona aspectele esentiale ale unei retele de transport public, urmarind urmatoarele puncte:
 
-Utilitatea practica a acestei baze de date consta in optimizarea alocarii vehiculelor si a soferilor pe rute, gestionarea eficienta a mentenantei flotei si urmarirea valabilitatii abonamentelor emise catre calatori.
+**Functionalitati:**
+- Managementul si monitorizarea starii vehiculelor (evidenta ITP/inspectii, masini dispuse sau indisponibile).
+- Gestionarea resurselor umane (alocarea optimizata a soferilor).
+- Gestionarea vanzarilor de bilete (sales and refunds).
+- Monitorizarea costurilor operationale.
+- Managementul incidentelor, defectiunilor sau blocajelor (situatii out of the ordinary).
+- Raportare date operationale (schimbare rute daca este cazul, in ore de varf sau din cauza unor blocaje).
+- Raportarea datelor de profit (daily, weekly, lunar, yearly).
+
+**Operatii:**
+- Implementarea tuturor pasilor specifici unei aplicatii prin operatii CRUD pentru manipularea datelor.
+
+**Utilizatori:**
+- Administratori/Manageri (pentru rapoarte de profit si monitorizare costuri), Dispeceri (pentru rute, blocaje si alocare soferi), Responsabili parc auto (pentru ITP) si Personal vanzari (pentru bilete).
